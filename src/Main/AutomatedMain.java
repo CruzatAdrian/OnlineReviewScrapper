@@ -7,6 +7,7 @@ import Utilities.Automated;
 
 public class AutomatedMain {
 
+	//This is a test comment
 	public static void main(String[] args) {
 		final String defaultURLFile = "URLList.txt";
 		String fileName;
