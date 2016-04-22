@@ -130,7 +130,7 @@ public class Automated {
 
 	private static void WriteYelpFile(ArrayList<YelpReview> ReviewArray) {
 		try {
-			File file = new File("Reviews/YelpReviews.txt");
+			File file = new File("YelpReviews.csv");
 			if(!file.exists()) {
 				file.createNewFile();
 			}
@@ -153,7 +153,7 @@ public class Automated {
 
 	private static void WriteTripFile(ArrayList<TripAdvisorReview> ReviewArray) {
 		try {
-			File file = new File("Reviews/TripReviews.txt");
+			File file = new File("TripReviews.csv");
 			if(!file.exists()) {
 				file.createNewFile();
 			}
